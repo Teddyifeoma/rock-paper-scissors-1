@@ -64,7 +64,13 @@ function showItem(itemToShow) {
         computer1.style.display = "none";
         computer2.style.display = "none";
         computer3.style.display = "none";
-    }, 3000);
+    }, 2000);
+
+    setTimeout(function() {
+        rock.style.display = "none";
+        scissors.style.display = "none";
+        paper.style.display = "none";
+    }, 2000);
 
     // Randomly select and display one of the computer elements
     let randomNumber = Math.floor(Math.random() * 3) + 1; // Generate a random number between 1 and 3
