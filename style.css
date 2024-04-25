@@ -4,11 +4,11 @@
 }
 
 body {
-    background-color: rgb(158, 155, 155);
+    background-color:pink;
 }
 
 .title {
-    color: red;
+    color: black;
     text-align: center;
     padding-top: 3%;
     margin-bottom: 20px;
